@@ -23,7 +23,7 @@ parser.add_argument('--upscale_factor', default=4, type=int, choices=[4], help='
 opt = parser.parse_args()
 
 # define input and target directories
-with open('./preprocess/paths.yml', 'r') as stream:
+with open('paths.yml', 'r') as stream:
     PATHS = yaml.load(stream)
 
 if opt.dataset == 'df2k':
