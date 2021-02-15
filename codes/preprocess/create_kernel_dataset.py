@@ -44,7 +44,7 @@ else:
 tdsr_hr_dir = path_tdsr + 'HR'
 tdsr_lr_dir = path_tdsr + 'LR'
 
-assert not os.path.exists(PATHS['datasets'][opt.dataset])
+#assert not os.path.exists(PATHS['datasets'][opt.dataset])
 
 
 if not os.path.exists(tdsr_hr_dir):
